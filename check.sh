@@ -10,8 +10,9 @@ g++ -o student_A main_A.cpp
 if [ $? -ne 0 ]; then
     echo "❌ Compilation of main_A.cpp failed!"
 else
-    # Compile the grader (hidden logic)
+    # Compile the grader (Now located in .github/scripts/)
     g++ -o grader_A .github/scripts/grader_A.cpp
+    
     # Run the grader
     ./grader_A
     if [ $? -eq 0 ]; then
@@ -28,8 +29,9 @@ g++ -o student_B main_B.cpp
 if [ $? -ne 0 ]; then
     echo "❌ Compilation of main_B.cpp failed!"
 else
-    # Compile the grader
+    # Compile the grader (Now located in .github/scripts/)
     g++ -o grader_B .github/scripts/grader_B.cpp
+    
     # Run the grader
     ./grader_B
     if [ $? -eq 0 ]; then
