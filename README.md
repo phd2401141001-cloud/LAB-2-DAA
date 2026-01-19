@@ -34,10 +34,10 @@ You are given predefined pairs of functions $f(n)$ and $g(n)$, identified by an 
 
 ### Output Format
 For each ID, print exactly three lines:
-```text
+
 Big-O: YES/NO
 Big-Omega: YES/NO
 Theta: YES/NO
-
-
+text
+InstructionsOpen main_A.cpp.Implement the logic to calculate $f(n)$ and $g(n)$ for large values of $n$ (e.g., $10^6$ vs $10^7$).Analyze the trend of the ratio to determine the complexity class.
 
