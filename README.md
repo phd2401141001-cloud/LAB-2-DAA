@@ -7,18 +7,18 @@ This laboratory assignment focuses on the empirical analysis of algorithms using
 You will work on two independent problems:
 
 1. Numerical Verification of Asymptotic Notation (Big-O, Big-Ω, Big-Θ)
-2. 
+  
 3. Comparative Analysis of Sorting Algorithms (Bubble, Merge, Quick Sort)
 
 
 Repository Structure
 
 - main_A.cpp : Edit this file for Problem A
-- 
+  
 - main_B.cpp : Edit this file for Problem B
-- 
+  
 - check.sh   : Script to test your code locally
-- 
+  
 - README.md  : Instruction file
 
 Warning: Do NOT rename files or modify the hidden .github folder.
@@ -33,20 +33,20 @@ You are given predefined pairs of functions f(n) and g(n) identified by an ID.
 For each ID, determine:
 
 - f(n) ∈ O(g(n))
-- 
+  
 - f(n) ∈ Ω(g(n))
-- 
+  
 - f(n) ∈ Θ(g(n))
 
 Rules:
 - No symbolic manipulation
-- 
+  
 - No hard-coded answers
-- 
+  
 - Use numerical evaluation of f(n)/g(n)
-- 
+  
 - Use large n (e.g., 10^6, 10^7)
-- 
+  
 - Use long double precision
 
 Input Format:
@@ -72,9 +72,9 @@ Description:
 Implement the following sorting algorithms manually:
 
 - Bubble Sort
-- 
+  
 - Merge Sort
-- 
+  
 - Quick Sort
 
 Do NOT use std::sort.
@@ -101,12 +101,13 @@ The sorted array must be printed on the first line.
 How to Run & Test:
 
 1. Open terminal in the repository folder
-2. 
+   
 3. Run: bash check.sh
 
 Submission:
 1. Ensure check.sh passes locally
-2. Commit and push your code to GitHub
+   
+3. Commit and push your code to GitHub
 
 Good Luck!
 
